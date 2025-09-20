@@ -24,7 +24,7 @@ export function Footer() {
   const defaultInfo = {
     showFooter: true,
     name: "당신의 이름",
-    description: "미디어강사, 미디어&AI 크리에이터 정상희",
+    description: "정상희",
     showQuickLinks: true,
     quickLinksTitle: "빠른 링크",
     showContactInfo: true,
@@ -265,6 +265,46 @@ export function Footer() {
     </footer>
   )
 }
+
+
+
+
+
+     
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+     
+  
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+     
+  
 
 
 
