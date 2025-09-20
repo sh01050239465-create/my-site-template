@@ -13,17 +13,12 @@ export function Projects() {
   const { getData, saveData, isEditMode, saveToFile } = useInlineEditor()
   // 기본 데이터
   const defaultInfo = {
-    title: "프로젝트",
+    title: "Project",
     subtitle: "프로젝트",
-    initialDisplay: 6,
+    initialDisplay: 3,
     loadMoreCount: 3,
-    background: {
-      image: "",
-      video: "",
-      color: "",
-      opacity: 0.1
-    },
-    projects: [] as Array<{ image: string; video?: string; title: string; description: string }>
+    background: {"image":"","video":"","color":"","opacity":0.1},
+    projects: [{"image":"/uploads/project-0-1758382318259.png","video":"","title":"AI 무료제작","description":"모두 AI로 제작된 영상입니다. 모두 무료툴을 사용하여 만들었습니다. \nhttps://www.youtube.com/watch?v=LXjkdi2l1x0"},{"image":"/uploads/project-1-1758382784509.png","video":"","title":"우리네 울산을 보다","description":"울산콘텐츠코리아랩에서 대상을 수상한 작품입니다.\nhttps://www.youtube.com/shorts/781SxRjPh_0"},{"image":"/uploads/project-1758382635223-1758382635257.png","video":"","title":"혹시 방어진을 아시나요?","description":"동구청에서 은상을 수상한 작품입니다.\nhttps://www.notion.so/JEONG-SANG-HEE-650a8a5091124ade9db912f3b5afb1d0?p=f101da7f16f8430fb2d21f84a747411a&pm=c"},{"image":"/uploads/project-1758382923985-1758382924870.png","video":"","title":"탄소중립경제 알고 실천하고 함께하고","description":"충청남도 우수상수상작입니다.\nhttps://www.youtube.com/watch?v=_McF-997qtU"},{"image":"/uploads/project-1758383014651-1758383014678.png","video":"","title":"어린이 고고학체험 대곡박물관","description":"울산민관협치지원센터에서 제작한 영상입니다.\nhttps://www.youtube.com/watch?v=HXJrE27VY9k&t=7s"},{"image":"/uploads/project-1758383080119-1758383080151.png","video":"","title":"보성학교 이야기","description":"울산시청자미디어센터, 마을미디어 공모작 영상입니다.\nhttps://www.youtube.com/watch?v=W4YGLXLh5WM&list=PLipIhXv1xg0ynCVSQHabq4D_KeRQN9qBN&index=9"},{"image":"/uploads/project-1758383171967-1758383171988.png","video":"","title":"서울주문화센터 '울주 어린이 오감체험 축제'","description":"https://www.youtube.com/watch?v=oUqTkz0RruY&list=PLipIhXv1xg0xYmw0iBV2oHOi8dm9sWD9I&index=2"},{"image":"/uploads/project-1758383220009-1758383220037.png","video":"","title":"2023울산직장인e스포츠대회결승전다녀왔어요~ #울산글로벌게임센터#스타크래프트 #강민해설위원과 함께!! 상금100만원의 주인공은 누구?","description":"https://www.youtube.com/watch?v=OM4GHrvp3B8&t=13s"}] as Array<{ image: string; video?: string; title: string; description: string }>
   }
 
   const [projectsInfo, setProjectsInfo] = useState(defaultInfo)
@@ -750,3 +745,4 @@ export function Projects() {
     </>
   )
 }
+  

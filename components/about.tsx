@@ -97,14 +97,14 @@ export function About() {
   // 기본 데이터
   const defaultInfo = {
     title: "소개",
-    subtitle: "당신의 전문성과 열정을 소개해주세요.",
+    subtitle: "미디어&AI 크리에이터이자 강사 정상희입니다.",
     background: {"image":"","video":"","color":"","opacity":0.1},
-    experienceCards: [{"icon":"briefcase","title":"회사명","period":"2020 - 현재","description":"직무 및 역할"},{"icon":"graduation","title":"학교명","period":"2016 - 2020","description":"전공 및 학위"},{"icon":"award","title":"자격증/수상","period":"2021","description":"설명을 입력하세요"}],
-    skills: [{"icon":"code","title":"프론트엔드 개발","description":"React, TypeScript, Next.js를 활용한 모던 웹 개발"},{"icon":"database","title":"백엔드 개발","description":"Node.js, Python, 데이터베이스 설계 및 구현"},{"icon":"palette","title":"UI/UX 디자인","description":"사용자 중심의 인터페이스 디자인"}],
-    storyTitle: "나의 이야기",
-    story: ["저는 기술을 통해 사람들의 삶을 더 편리하고 의미 있게 만드는 일에 열정을 가지고 있습니다.","다양한 프로젝트를 통해 문제 해결 능력과 창의적인 사고를 키워왔으며, 팀원들과의 협업을 통해 함께 성장하는 가치를 배웠습니다.","앞으로도 지속적인 학습과 도전을 통해 더 나은 개발자가 되기 위해 노력하겠습니다."],
-    storyImage: "",
-    hobbies: ["📚 독서","☕ 카페 투어","🎨 전시회 관람","✈️ 여행"]
+    experienceCards: [{"icon":"graduation","title":"영남대학교","period":"2003 ~ 2007","description":"정치외교학과, 언론정보학과"},{"icon":"briefcase","title":"울산시청자미디어센터","period":"2022 ~ 현재","description":"미디어 강사"},{"icon":"briefcase","title":"대구시청자미디어센터","period":"2024 ~ 현재","description":"미디어 강사"},{"icon":"briefcase","title":"한국언론진흥재단","period":"2025~ 현재","description":"늘봄 강사"},{"icon":"briefcase","title":"디지털배움터","period":"2024","description":"강사"},{"icon":"award","title":"울산 숏폼 영상 공모전, 우리네 울산을 보다로 대상 수상","period":"2023","description":"울산콘텐츠코리아랩"},{"icon":"award","title":"울산동구 영상공모전, 혹시 방어진을 아시나요? 방어진근대역사찾기로 은상 수상","period":"2023","description":"울산동구청"},{"icon":"award","title":"충청남도 탄소중립경제 유튜브 공모전, 탄소중립경제 알GO,실천하GO, 함께하GO로 우수상 수상","period":"2023","description":"충청남도"},{"icon":"award","title":"울산 중구 숏폼 영상공모전, 한글도시 울산 중구로 장려상 수상","period":"2023","description":"울산 중구"},{"icon":"book","title":"[영상 공모전, 수상비법을 알려주마!] 전자책 출간","period":"2024","description":"설명을 입력하세요"}],
+    skills: [{"icon":"camera","title":"촬영 및 편집","description":"전문적인 촬영과 편집이 가능합니다."},{"icon":"video","title":"다양한 영상 제작 ","description":"브이로그부터 광고까지 다양항 영상제작이 가능합니다."},{"icon":"star","title":"AI","description":"AI 이미지 제작, 영상 제작, 동화책 출간까지 다양한 분야에서 활동하고 있습니다."},{"icon":"star","title":"디지털 & 미디어 교육","description":"리터러시 교육부터 영상 촬영, 편집, AI까지 \n어르신부터 어린아이까지 교육이 가능합니다."}],
+    storyTitle: "정상희, 세상의 이야기를 그리다",
+    story: ["저는 미디어와  AI를 통해 사람들과 소통하고, 세상의 다채로운 이야기를 콘텐츠로 담아내는 일에 열정을 가지고 있는  크리에이터 정상희입니다.","또한 시청자미디어센터와 언론진흥재단에서 미디어 강사로도 활동하며, 미디어 및 미디어 리터러시, 영상 제작, 스마트폰 활용법 등에 대한 강의를 진행하고 있습니다. ","앞으로도 미디어와 AI를 통해 세상의 이야기를 지속적으로 발굴하고, 더 많은 사람과 소통하며 함께 성장하는 전문가가 되기 위해 노력하겠습니다."],
+    storyImage: "/uploads/about-image-1758380755459.jpg",
+    hobbies: ["📚 독서","☕ 카페 투어","🎨 전시회 관람","✈️ 여행","📸 사진","🎯 새 취미","🎬 영화 감상","🎯 새 취미","🎵 음악 감상","🎯 새 취미","🎭 연극 관람","🎯 새 취미","🎪 공연 관람","✍️ 글쓰기"]
   }
   
   const [aboutInfo, setAboutInfo] = useState(defaultInfo)
