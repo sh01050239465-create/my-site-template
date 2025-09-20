@@ -36,16 +36,23 @@ export function Hero() {
   const defaultSocialLinks = [{"name":"Instagram","icon":"instagram","url":"https://instagram.com/username"},{"name":"YouTube","icon":"youtube","url":"https://youtube.com/@username"}]
   
   const defaultInfo = {
+<<<<<<< HEAD
     greeting: " Erica Jeong",
     name: "정상희",
     title: "미디어 강사, 미디어&AI creator",
     description: "여러분들의 미디어 경험을 확장시켜드립니다. ",
     profileImage: "/uploads/hero-profile-1758380573989.png",
+=======
+    greeting: "안녕하세요!",
+    name: "정상희",
+    title: "AI&미디어 크리에이터, 미디어 강사",
+    description: "창의적인 아이디어로 세상의 이야기를 담습니다.",
+    profileImage: "/uploads/hero-profile-1758378818867.png",
+>>>>>>> 0340613f7f0796a1bb3cb62a618b444855a52d81
     backgroundImage: "",
     backgroundVideo: "",
     backgroundOpacity: 0.1,
-    projectButton: "프로젝트 보기",
-    background: {"image":"","video":"","color":"","opacity":0.1}
+    projectButton: "프로젝트 보기"
   }
 
   const [backgroundData, setBackgroundData] = useState<{ image: string; video: string; color: string; opacity: number } | null>(null)
@@ -434,6 +441,14 @@ export function Hero() {
                 >
                   📁 파일에 저장
                 </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
+    </EditableBackground>
+  )
+}              </button>
               </div>
             </div>
           </div>

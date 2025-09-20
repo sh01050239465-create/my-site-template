@@ -25,7 +25,11 @@ const ICON_MAP = {
 
 // 기본 데이터 (파일에는 문자열로 저장되지만 여기서는 컴포넌트로 변환)
 export const defaultConfig = {
+<<<<<<< HEAD
     logo: "Portfolio",
+=======
+    logo: "Erica",
+>>>>>>> 0340613f7f0796a1bb3cb62a618b444855a52d81
     logoImage: "",
     showNavBar: true,
     showThemeToggle: true,
