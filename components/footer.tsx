@@ -30,7 +30,7 @@ export function Footer() {
     showContactInfo: true,
     contactTitle: "연락처",
     phone: "010-5023-9465",
-    email: "readlove@naaver.com",
+    email: "readlove@naver.com",
     location: "대한민국, 울산",
     copyright: "",
     showMadeWith: true,
@@ -343,6 +343,7 @@ export function Footer() {
 
      
   
+
 
 
 
